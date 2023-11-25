@@ -1,2 +1,49 @@
-# FRamework
-C# .NET library with many class's with pre-written functions you will likely need
+## Methane.wtf 
+<div align="center">
+  <h3 align="center">methane.wtf .NET FRamework</h3>
+  <p align="center">
+    This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need your new projects. Instead of creating new class's in your new project(s), you can just add REframework as a reference!. 
+       <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference?</a>
+  </p>
+</div>
+
+### Installation
+1. Open a .NET framework project
+2. Right click "References" in the Solution Explorer
+3. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
+4. Browse to the downloaded DLL (or built DLL) and and click OK
+5. To use it in your code add "using FRamework"
+
+   ## Roadmap
+- to do
+
+## Contribution
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can make a pull request [here](https://github.com/methanewtf/FRamework/pulls)
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an [issue](https://github.com/methanewtf/FRamework/issues) with the tag "enhancement".
+Don't forget to give the project a star!
+
+## Issues
+Are you experiencing a bug? Head [here](https://github.com/methanewtf/FRamework/issues)
+
+## Licensing 
+Permissions
+* ✔️ Commercial use
+* ✔️ Modification
+* ✔️ Distribution
+* ✔️ Private use
+<br></br>
+
+Release conditions
+* ❕ License and copyright notice
+* ❕ State changes
+* ❕ Disclose source
+* ❕ Same license
+<br></br>
+
+Limitations
+* ❌ Liability
+* ❌ Warranty
+<br></br>
+
+License being used: **GNU General Public License v2.0 license**
