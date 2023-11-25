@@ -2,7 +2,7 @@
 <div align="center">
   <h3 align="center">methane.wtf .NET framework</h3>
   <p align="center">
-    This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need your new projects. Instead of creating new class's in your new project(s), you can just add REframework as a reference!. 
+    This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add REframework as a reference!. 
        <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference?</a>
   </p>
 </div>
