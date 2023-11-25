@@ -14,9 +14,6 @@
 4. Browse to the downloaded DLL (or built DLL) and and click OK
 5. To use it in your code add "using FRamework"
 
-   ## Roadmap
-- to do
-
 ## Acknowledgments
 <div>
     <a href="https://github.com/Lachee/discord-rpc-csharp">lachee</a> - C# Discord Rich Presence Wrapper
