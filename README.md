@@ -3,7 +3,6 @@
   <h3 align="center">methane.wtf .NET framework</h3>
   <p align="center">
     This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add FRamework as a reference!
-       <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference?</a>
   </p>
 </div>
 
@@ -13,6 +12,7 @@
 3. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
 4. Browse to the downloaded DLL (or built DLL) and and click OK
 5. To use it in your code add "using FRamework"
+<a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference video</a>
 
 ## Acknowledgments
 <div>
