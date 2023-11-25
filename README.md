@@ -17,6 +17,12 @@
    ## Roadmap
 - to do
 
+## Acknowledgments
+<div>
+    <a href="https://github.com/Lachee/discord-rpc-csharp">lachee</a> - C# Discord Rich Presence Wrapper
+    <br>
+</div>
+
 ## Contribution
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can make a pull request [here](https://github.com/methanewtf/FRamework/pulls)
 
