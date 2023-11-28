@@ -1,6 +1,6 @@
-## Methane.wtf 
+## kamishiro.dev 
 <div align="center">
-  <h3 align="center">methane.wtf .NET framework</h3>
+  <h3 align="center">kamishiro.dev .NET framework</h3>
   <p align="center">
     This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add FRamework as a reference!
   </p>
@@ -22,13 +22,13 @@
 </div>
 
 ## Contribution
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can make a pull request [here](https://github.com/methanewtf/FRamework/pulls)
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can make a pull request [here](https://github.com/kamishirodev/FRamework/pulls)
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an [issue](https://github.com/methanewtf/FRamework/issues) with the tag "enhancement".
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an [issue](https://github.com/kamishirodev/FRamework/issues) with the tag "enhancement".
 Don't forget to give the project a star!
 
 ## Issues
-Are you experiencing a bug? Head [here](https://github.com/methanewtf/FRamework/issues)
+Are you experiencing a bug? Head [here](https://github.com/kamishirodev/FRamework/issues)
 
 ## Licensing 
 Permissions
