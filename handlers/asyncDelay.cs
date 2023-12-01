@@ -18,6 +18,7 @@ namespace FRamework.handlers
             {
                 if (functionTask)
                 {
+                    // read threads.cs to understand why () is used and sometimes isnt used //
                     threads.createTask(function);
                 }
                 else
