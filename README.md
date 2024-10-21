@@ -7,12 +7,13 @@
 </div>
 
 ### Installation
+1. Compile from source or download <a href="https://github.com/abusedev/FRamework/releases">here</a>
 <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">Adding a reference video</a>
-1. Open a .NET framework project
-2. Right click "References" in the Solution Explorer
-3. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
-4. Browse to the downloaded DLL (or built DLL) and and click OK
-5. To use it in your code you can usually do
+2. Open a .NET framework project
+3. Right click "References" in the Solution Explorer
+4. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
+5. Browse to the downloaded DLL (or built DLL) and and click OK
+6. To use it in your code you can usually do
 ```c#
 FRamework.handlers
 ```
