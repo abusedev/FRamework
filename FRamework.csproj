@@ -194,6 +194,7 @@
     <Compile Include="handlers\input\keyboardInterface.cs" />
     <Compile Include="handlers\input\mouseInterface.cs" />
     <Compile Include="handlers\mersenneTwister.cs" />
+    <Compile Include="handlers\windows\eventViewerManager.cs" />
     <Compile Include="handlers\windows\fontChecker.cs" />
     <Compile Include="handlers\windows\processManager.cs" />
     <Compile Include="handlers\types\stringEncoding.cs" />
