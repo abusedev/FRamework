@@ -1,6 +1,8 @@
-﻿using System;
-using System.Collections.Specialized;
+﻿using FRamework.handlers.windows;
+using System;
 using System.Net;
+using System.Net.NetworkInformation;
+using System.Threading.Tasks;
 
 namespace FRamework.handlers.web
 {
@@ -21,6 +23,28 @@ namespace FRamework.handlers.web
         public static string readString(string link)
         {
             return client.DownloadString(link);
+        }
+
+        /// <summary>
+        /// Will return with this structure: {ping} MS if address is valid, if not valid: ping N/A
+        /// </summary>
+        /// <param name="address"></param>
+        /// <returns></returns>
+        public static async Task<dynamic> getPing(string address)
+        {
+            using (var ping = new Ping())
+            {
+                Ping _ping = new Ping();
+                PingReply reply = _ping.Send(address);
+                if (reply.Status == IPStatus.Success)
+                {
+                    return reply.RoundtripTime + " MS";
+                }
+                else
+                {
+                    return "ping N/A";
+                }
+            }
         }
     }
 }
