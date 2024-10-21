@@ -41,7 +41,7 @@ namespace FRamework.handlers.windows
 
         public static void clearConsole()
         {
-            Console.Clear();;
+            Console.Clear();
         }
 
         [DllImport("user32.dll", SetLastError = true)]
