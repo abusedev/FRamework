@@ -1,6 +1,4 @@
 ## FRamework 
-
-## abuse 
 <div align="center">
   <h3 align="center">abuse .NET framework</h3>
   <p align="center">
