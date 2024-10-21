@@ -7,6 +7,7 @@
 </div>
 
 ### Installation
+<a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">Adding a reference video</a>
 1. Open a .NET framework project
 2. Right click "References" in the Solution Explorer
 3. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
@@ -16,7 +17,6 @@
 FRamework.handlers
 ```
 and a list of class's will appear for you to use </br>
-6. <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference video</a>
 
 ## Acknowledgments
 <div>
