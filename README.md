@@ -8,7 +8,6 @@
 
 ### Installation
 1. Compile from source or download <a href="https://github.com/abusedev/FRamework/releases">here</a>
-<a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">Adding a reference video</a>
 2. Open a .NET framework project
 3. Right click "References" in the Solution Explorer
 4. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
@@ -18,6 +17,7 @@
 FRamework.handlers
 ```
 and a list of class's will appear for you to use </br>
+<a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">Adding a reference video</a>
 
 ## Acknowledgments
 <div>
