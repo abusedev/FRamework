@@ -25,11 +25,8 @@ namespace FRamework.handlers.web
             return client.DownloadString(link);
         }
 
-        /// <summary>
-        /// Will return with this structure: {ping} MS if address is valid, if not valid: ping N/A
-        /// </summary>
         /// <param name="address"></param>
-        /// <returns></returns>
+        /// <returns>Will return with this structure: {ping} MS if address is valid, if not valid: ping N/A</returns>
         public static async Task<dynamic> getPing(string address)
         {
             using (var ping = new Ping())
