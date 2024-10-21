@@ -167,6 +167,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
       <Private>True</Private>
@@ -197,6 +198,7 @@
     <Compile Include="handlers\windows\processManager.cs" />
     <Compile Include="handlers\types\stringEncoding.cs" />
     <Compile Include="handlers\windows\fstream.cs" />
+    <Compile Include="handlers\windows\serviceManager.cs" />
     <Compile Include="handlers\windows\threads.cs" />
     <Compile Include="handlers\types\vector.cs" />
     <Compile Include="handlers\web\webClient.cs" />
