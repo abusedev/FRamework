@@ -1,5 +1,7 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace FRamework.handlers.windows
 {
@@ -51,6 +53,18 @@ namespace FRamework.handlers.windows
             {
                 process.Kill();
             }
+        }
+
+        public static void restartProcess(string processName)
+        {
+            foreach (Process exe in Process.GetProcesses())
+            {
+                if (exe.ProcessName == processName)
+                {
+                    exe.Kill();
+                }
+            }
+            Process.Start($"{processName}.exe");
         }
     }
 }
