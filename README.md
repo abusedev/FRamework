@@ -13,7 +13,6 @@
 4. Browse to the downloaded DLL (or built DLL) and and click OK
 5. To use it in your code you can usually do ```csharp
    FRamework.handlers
-}
 ``` and this will show many of the pre-written class's
 <br>
 <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference video</a>
