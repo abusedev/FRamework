@@ -11,9 +11,11 @@
 2. Right click "References" in the Solution Explorer
 3. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
 4. Browse to the downloaded DLL (or built DLL) and and click OK
-5. To use it in your code you can usually do ```c#
-FRamework.handlers``` and this will show many of the pre-written class's
-<br>
+5. To use it in your code you can usually do
+```c#
+FRamework.handlers
+```
+and a list of class's will appear for you to use
 <a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">how to add a reference video</a>
 
 ## Acknowledgments
