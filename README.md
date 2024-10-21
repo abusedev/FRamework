@@ -25,6 +25,12 @@ and a list of class's will appear for you to use </br>
     <br>
 </div>
 
+## Roadmap/TODO
+- [ ] Wooting SDK
+- [x] Service manager
+- [x] Process manager
+- [x] Font checker
+
 ## Contribution
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can make a pull request [here](https://github.com/abusedev/FRamework/pulls)
 
