@@ -21,7 +21,7 @@ and a list of class's will appear for you to use </br>
 
 ## Acknowledgments
 <div>
-    handler/web/discord.cs - <a href="https://github.com/Lachee/discord-rpc-csharp">lachee</a>
+    handler/web/discord.cs - <a href="https://github.com/Lachee/discord-rpc-csharp">Lachee's Discord Rich Presenc C# Wrapper</a>
     <br>
 </div>
 
