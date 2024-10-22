@@ -2,7 +2,7 @@
 <div align="center">
   <h3 align="center">abuse .NET framework</h3>
   <p align="center">
-    This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add FRamework as a reference!
+    This is a .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add FRamework as a reference!
   </p>
 </div>
 
