@@ -22,10 +22,12 @@ namespace FRamework.handlers.input
             if (!fstream.fileExists("C:/Program Files/wooting-analog-sdk/wooting_analog_sdk.dll"))
             {
                 MessageBox.Show("Please install the Wooting SDK. You can download it from Wootility or through the link copied to your Clipboard. Make sure to install the SDK and Plugin.", productname, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Clipboard.SetText("https://github.com/WootingKb/wooting-analog-sdk/releases/download/v0.8.0/wooting_analog_sdk-0.8.0-x86_64.msi");
             }
             if (!fstream.fileExists("C:/Program Files/WootingAnalogPlugins/wooting-analog-plugin/wooting_analog_plugin.dll"))
             {
                 MessageBox.Show("Please install the Wooting SDK. You can download it from Wootility or through the link copied to your Clipboard. Make sure to install the SDK and Plugin.", productname, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Clipboard.SetText("https://github.com/WootingKb/wooting-analog-sdk/releases/download/v0.8.0/wooting_analog_sdk-0.8.0-x86_64.msi");
             }
         }
 
