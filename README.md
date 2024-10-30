@@ -28,7 +28,7 @@ and a list of class's will appear for you to use </br>
 </div>
 
 ## Roadmap/TODO
-- [ ] Wooting SDK
+- [x] Wooting SDK
 - [x] Service manager
 - [x] Process manager
 - [x] Font checker
