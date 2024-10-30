@@ -2,27 +2,34 @@
 <div align="center">
   <h3 align="center">abuse .NET framework</h3>
   <p align="center">
-    This is .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add FRamework as a reference!
+    This is a .NET library with many class's for easy use with a ton of pre-written functions that you will likely need with your new C# projects. Instead of creating new class's in your new project(s), you can just add FRamework as a reference!
   </p>
 </div>
 
 ### Installation
-<a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">Adding a reference video</a>
-1. Open a .NET framework project
-2. Right click "References" in the Solution Explorer
-3. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
-4. Browse to the downloaded DLL (or built DLL) and and click OK
-5. To use it in your code you can usually do
+1. Compile from source or download <a href="https://github.com/abusedev/FRamework/releases">here</a>
+2. Open a .NET framework project
+3. Right click "References" in the Solution Explorer
+4. By default it will usually open Assemblies. Click "Browse" at the bottom to add a custom DLL
+5. Browse to the downloaded DLL (or built DLL) and and click OK
+6. To use it in your code you can usually do
 ```c#
 FRamework.handlers
 ```
 and a list of class's will appear for you to use </br>
+<a href="https://youtu.be/LuDCJ90igrg?si=ekxHd3GobqpwGA9B&t=3">Adding a reference video</a>
 
 ## Acknowledgments
 <div>
-    <a href="https://github.com/Lachee/discord-rpc-csharp">lachee</a> - C# Discord Rich Presence Wrapper
+    handler/web/discord.cs - <a href="https://github.com/Lachee/discord-rpc-csharp">Lachee's Discord Rich Presenc C# Wrapper</a>
     <br>
 </div>
+
+## Roadmap/TODO
+- [ ] Wooting SDK
+- [x] Service manager
+- [x] Process manager
+- [x] Font checker
 
 ## Contribution
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. You can make a pull request [here](https://github.com/abusedev/FRamework/pulls)
