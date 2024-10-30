@@ -22,8 +22,9 @@ and a list of class's will appear for you to use </br>
 
 ## Acknowledgments
 <div>
-    handler/web/discord.cs - <a href="https://github.com/Lachee/discord-rpc-csharp">Lachee's Discord Rich Presenc C# Wrapper</a>
+    handlers/web/discord.cs - <a href="https://github.com/Lachee/discord-rpc-csharp">Lachee's Discord Rich Presenc C# Wrapper</a>
     <br>
+    handlers/input/wootingInterface.cs - <a href="https://github.com/WootingKb/wooting-analog-wrappers">Wooting Analog</a>
 </div>
 
 ## Roadmap/TODO
