@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
@@ -17,15 +17,13 @@ namespace FRamework.handlers.windows
             thread.Start();
         }
 
-
         /// <summary>
-        /// Run a function in a new task, dont add () after is because adding () to a method calls the method instead of referencing the method itself
+        /// Queue a task to the ThreadPool which automatically uses a background thread
         /// </summary>
-        /// <param name="function">Function you want to run in a task. Make sure not to add () after the function name</param>
-        public static void createTask(Action function)
+        /// <returns></returns>
+        public static async Task runInNewThread(Func<Task> code)
         {
-            Task.Factory.StartNew(() => function());
-            //debugLogger.normalLog("Task started");
+            await Task.Run(code);
         }
 
         /// <summary>
@@ -48,6 +46,12 @@ namespace FRamework.handlers.windows
                 return thread.ToString();
             }
             return "";
+        }
+
+        /// <returns><The current thread ID/returns>
+        public static int getThreadID()
+        {
+            return Thread.CurrentThread.ManagedThreadId;
         }
     }
 }
